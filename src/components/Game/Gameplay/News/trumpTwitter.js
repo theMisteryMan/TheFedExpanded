@@ -41,7 +41,15 @@ const twitterFeed = (
     {
         text: `${firstName} ${lastName} is doing a great job, I am very proud of them. Their predecessor, Little Jerome, didn’t have the mental capacity needed. He was dumb as a dog and I couldn’t get rid of him fast enough. He was lazy as hell. Now it is a whole new ballgame, great spirit at The Fed! `,
         time: 180
-    }
+    },
+    {
+        text: `this account definetely not hacked by ${firstName} ${lastName}! `,
+        time: 200
+    },
+    {
+        text: `\[acount deleted for violating Twitter\'s terms of service\]`,
+        time: 220
+    },
 ];
 
 const intervalString = interval => {
